@@ -5427,7 +5427,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -16249,6 +16249,7 @@ GameObject:
   - component: {fileID: 1613365804}
   - component: {fileID: 1613365805}
   - component: {fileID: 1613365806}
+  - component: {fileID: 1613365807}
   m_Layer: 0
   m_Name: Jessy
   m_TagString: Jugador
@@ -16384,7 +16385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5d2188c8dde1c940b6129be3c52c39b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torqueAmount: 10
+  torqueAmount: 1
   boostSpeed: 30
   baseSpeed: 20
 --- !u!114 &1613365806
@@ -16401,6 +16402,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayTime: 1
   CrashEffect: {fileID: 145690619}
+--- !u!114 &1613365807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613365798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6d1d337eef4374696922d86c62ea9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SnowEffect: {fileID: 154431881}
 --- !u!1 &1669029799
 GameObject:
   m_ObjectHideFlags: 0
