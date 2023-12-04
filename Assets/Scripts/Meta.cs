@@ -10,6 +10,7 @@ public class Meta : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Jugador"){
             finishEffect.Play();
+            GetComponent<AudioSource>().Play();
             Invoke("ReloadScene", delayTime);
             
         }
